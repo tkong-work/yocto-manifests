@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="xilinx"  fetch="git://github.com/xilinx"/>
-  <remote name="ilg"     fetch="git://github.com/tkong-work"/>
+  <remote name="ilg"     fetch="ssh://git@github.com/tkong-work"/>
   <default sync-j="4"/>
 
   <project remote="ilg"     revision="master" name="yocto-base"       path="."/>
