@@ -4,7 +4,6 @@
   <remote name="ilg"     fetch="git://github.com/tkong-work"/>
   <default sync-j="4"/>
 
-  <project remote="xilinx"  revision="rel-v2018.3"      name="yocto-scripts"            path="./scripts"/>
   <project remote="ilg"     revision="master" name="yocto-base"       path="."/>
   <project remote="ilg"     revision="master" name="meta-ilg"         path="sources/meta-ilg"/>
   <project remote="xilinx"  revision="rel-v2018.3"      name="yocto-manifests"          path="sources/manifest"/>
